@@ -1,0 +1,31 @@
+# Environment & credentials
+.env
+
+# Python cache / bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+*.egg-info/
+build/
+dist/
+
+# Logs and reports
+logs/
+reports/
+*.log
+
+# Data and cache
+data/raw/
+data/metadata/exclusions.log
+fastf1_cache/
+*.csv
+*.json
+*.parquet
+
+# Jupyter / notebooks checkpoints
+.ipynb_checkpoints/
